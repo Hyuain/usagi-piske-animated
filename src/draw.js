@@ -63,7 +63,8 @@ const style =
     border-top-right-radius: 27px 38px;
 }
 
-.usagi .ear.left::after, .usagi .ear.right::after {
+.usagi .ear.left::after,
+.usagi .ear.right::after {
     content: '';
     width: 29px;
     height: 10px;
@@ -92,7 +93,8 @@ const style =
 ** 眼睛比较简单，先画一下眼睛吧~
 */
 
-.usagi .eye::before, .usagi .eye::after {
+.usagi .eye::before,
+.usagi .eye::after {
     content: '';
     background-color: #512300;
     border-radius: 50%;
@@ -143,7 +145,8 @@ const style =
 ** 然后是加上嘴巴
 */
 
-.usagi .mouth.upper::before, .usagi .mouth.upper::after {
+.usagi .mouth.upper::before,
+.usagi .mouth.upper::after {
     content: '';
     border: 8px solid #512300;
     border-top: none;
@@ -185,18 +188,7 @@ const style =
 ** 最后抹上腮红，Usagi 就完成啦~
 */
 
-.usagi .flush::before {
-    content: '';
-    background-color: #f3a1ae;
-    width: 53px;
-    height: 37px;
-    border-radius: 50%;
-    position: absolute;
-    top: 44px;
-    left: 50%;
-    margin-left: -98px;
-}
-
+.usagi .flush::before,
 .usagi .flush::after {
     content: '';
     background-color: #f3a1ae;
@@ -206,6 +198,13 @@ const style =
     position: absolute;
     top: 44px;
     left: 50%;
+}
+
+.usagi .flush::before {
+    margin-left: -98px;
+}
+
+.usagi .flush::after {
     margin-left: 45px;
 }
 
@@ -240,7 +239,8 @@ const style =
 ** Piske 的眼睛更圆一些，少了几分慵懒
 */
 
-.piske .eye::before, .piske .eye::after {
+.piske .eye::before,
+.piske .eye::after {
     content: '';
     background-color: #3f180d;
     border-radius: 50%;
@@ -263,7 +263,8 @@ const style =
 ** 接着是 Piske 的灵魂
 */
 
-.piske .mouth::before, .piske .mouth::after {
+.piske .mouth::before,
+.piske .mouth::after {
     content: '';
     border: 6px solid #3f180d;
     background-color: #fdd924;
@@ -291,7 +292,8 @@ const style =
 ** 同样给他也加上腮红
 */
 
-.piske .flush::before, .piske .flush::after {
+.piske .flush::before,
+.piske .flush::after {
     content: '';
     background-color: #f3a1ae;
     width: 25px;
@@ -331,4 +333,5 @@ const style =
 ** 这样我们就画完啦，不知道你喜欢吗
 ** 我们下次再见啦，拜拜~
 */`
+
 export default style

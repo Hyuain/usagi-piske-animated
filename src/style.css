@@ -21,10 +21,16 @@ body {
     position: relative;
 }
 
-#text {
+#text-container{
     height: 70%;
-    width: 100%;
     overflow-y: scroll;
+}
+
+#text {
+    width: 400px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     word-wrap: break-word;
     color: #fff;
     font-family: 'Fira Code', monospace;
@@ -32,7 +38,7 @@ body {
     overflow: -moz-scrollbars-none;
 }
 
-#text::-webkit-scrollbar {
+#text-container::-webkit-scrollbar {
     width: 0 !important
 }
 

@@ -3,6 +3,7 @@ import styleCodeMobile from './draw-mobile.js'
 
 const style = document.querySelector('#style')
 const text = document.querySelector('#text')
+const textContainer = document.querySelector('#text-container')
 const btnPlayPause = document.querySelector('#btnPlayPause')
 const btnSlow = document.querySelector('#btnSlow')
 const btnNormal = document.querySelector('#btnNormal')
@@ -57,7 +58,7 @@ const player = {
         }
         style.innerHTML = styleCode.substring(0, player.n + 1)
         text.innerHTML = player.styleText
-        text.scrollTop = text.scrollHeight
+        textContainer.scrollTop = textContainer.scrollHeight
         player.n++
         if (player.n >= styleCode.length) {
             style.innerHTML = styleCode + styleCodeMobile
