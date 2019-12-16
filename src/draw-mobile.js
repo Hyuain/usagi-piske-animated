@@ -1,4 +1,5 @@
 const style= `
+
 @media (max-width: 500px) {
     .usagi-container {
         width: calc(0.7*270px);
