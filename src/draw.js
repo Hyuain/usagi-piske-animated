@@ -6,13 +6,13 @@ const style =
 */
 
 .usagi-container {
-    width: 270px;
-    height: 190px;
-    position: absolute;
-    bottom: 0px;
-    left: 50%;
-    margin-left: -230px;
-    overflow:hidden;
+  width: 27rem;
+  height: 19rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -23rem;
+  overflow:hidden;
 }
 
 /*
@@ -20,16 +20,16 @@ const style =
 */
 
 .usagi {
-    border: 8px solid #512300;
-    width: 270px;
-    height: 250px;
-    position: absolute;
-    bottom: -150px;
-    right: 0;
-    border-bottom: none;
-    border-radius: 110px;
-    background-color: #f5b4c0;
-    transition: transform 0.5s;
+  border: .8rem solid #512300;
+  width: 27rem;
+  height: 25rem;
+  position: absolute;
+  bottom: -15rem;
+  right: 0;
+  border-bottom: none;
+  border-radius: 11rem;
+  background-color: #f5b4c0;
+  transition: transform 0.5s;
 }
 
 /*
@@ -37,41 +37,41 @@ const style =
 */
 
 .usagi .ear {
-    border: 8px solid #512300;
-    height: 72px;
-    width: 46px;
-    background-color: #f5b4c0;
-    position: absolute;
-    border-bottom: none;
+  border: .8rem solid #512300;
+  height: 7.2rem;
+  width: 4.6rem;
+  background-color: #f5b4c0;
+  position: absolute;
+  border-bottom: none;
 }
 
 .usagi .ear.left {
-    top: -71px;
-    left: 50%;
-    margin-left: -55px;
-    transform: rotate(-3deg);
-    border-top-left-radius: 37px 75px;
-    border-top-right-radius: 27px 38px;
+  top: -7.1rem;
+  left: 50%;
+  margin-left: -5.5rem;
+  transform: rotate(-3deg);
+  border-top-left-radius: 3.7rem 7.5rem;
+  border-top-right-radius: 2.7rem 3.8rem;
 }
 
 .usagi .ear.right {
-    top: -70px;
-    left: 50%;
-    margin-left: 17px;
-    transform: rotate(6deg);
-    border-top-left-radius: 26px 40px;
-    border-top-right-radius: 27px 38px;
+  top: -7rem;
+  left: 50%;
+  margin-left: 1.7rem;
+  transform: rotate(6deg);
+  border-top-left-radius: 2.6rem 4rem;
+  border-top-right-radius: 2.7rem 3.8rem;
 }
 
 .usagi .ear.left::after,
 .usagi .ear.right::after {
-    content: '';
-    width: 29px;
-    height: 10px;
-    position: absolute;
-    top: 58px;
-    left: 1%;
-    background-color: #f5b4c0;
+  content: '';
+  width: 2.9rem;
+  height: 1rem;
+  position: absolute;
+  top: 5.8rem;
+  left: 1%;
+  background-color: #f5b4c0;
 }
 
 /*
@@ -79,14 +79,14 @@ const style =
 */
 
 .usagi .face {
-    background-color: #fff;
-    height: 100px;
-    width: 64px;
-    border-radius: 50%;
-    position: absolute;
-    top: 36px;
-    left: 50%;
-    margin-left: -32px;
+  background-color: #fff;
+  height: 10rem;
+  width: 6.4rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 3.6rem;
+  left: 50%;
+  margin-left: -3.2rem;
 }
 
 /*
@@ -95,24 +95,24 @@ const style =
 
 .usagi .eye::before,
 .usagi .eye::after {
-    content: '';
-    background-color: #512300;
-    border-radius: 50%;
-    width: 20px;
-    height: 11px;
-    position: absolute;
-    top: 33px;
-    left: 50%;
+  content: '';
+  background-color: #512300;
+  border-radius: 50%;
+  width: 2rem;
+  height: 1.1rem;
+  position: absolute;
+  top: 3.3rem;
+  left: 50%;
 }
 
 .usagi .eye::before {
-    margin-left: -40px;
-    transform: rotate(-22deg);
+  margin-left: -4rem;
+  transform: rotate(-22deg);
 }
 
 .usagi .eye::after {
-    margin-left: 20px;
-    transform: rotate(22deg);
+  margin-left: 2rem;
+  transform: rotate(22deg);
 }
 
 /*
@@ -120,25 +120,25 @@ const style =
 */
 
 .usagi .nose {
-    background-color: #512300;
-    border-radius: 50%;
-    width: 16px;
-    height: 9px;
-    position: absolute;
-    top: 3px;
-    left: 50%;
-    margin-left: -8px;
+  background-color: #512300;
+  border-radius: 50%;
+  width: 1.6rem;
+  height: .9rem;
+  position: absolute;
+  top: .3rem;
+  left: 50%;
+  margin-left: -.8rem;
 }
 
 .usagi .nose::after {
-    content: '';
-    background-color: #512300;
-    width: 8px;
-    height: 19px;
-    position: absolute;
-    top: 3px;
-    left: 50%;
-    margin-left: -4px;
+  content: '';
+  background-color: #512300;
+  width: .8rem;
+  height: 1.9rem;
+  position: absolute;
+  top: .3rem;
+  left: 50%;
+  margin-left: -.4rem;
 }
 
 /*
@@ -147,41 +147,41 @@ const style =
 
 .usagi .mouth.upper::before,
 .usagi .mouth.upper::after {
-    content: '';
-    border: 8px solid #512300;
-    border-top: none;
-    border-radius: 50%;
-    width: 24px;
-    height: 23px;
-    position: absolute;
-    top: 13px;
-    left: 50%;
-    z-index: 1;
+  content: '';
+  border: .8rem solid #512300;
+  border-top: none;
+  border-radius: 50%;
+  width: 2.4rem;
+  height: 2.3rem;
+  position: absolute;
+  top: 1.3rem;
+  left: 50%;
+  z-index: 1;
 }
 
 .usagi .mouth.upper::before {
-    border-left: none;
-    margin-left: -20px;
-    transform: rotate(25deg);
+  border-left: none;
+  margin-left: -2rem;
+  transform: rotate(25deg);
 }
 
 .usagi .mouth.upper::after {
-    border-right: none;
-    margin-left: -4px;
-    transform: rotate(-25deg);
+  border-right: none;
+  margin-left: -.4rem;
+  transform: rotate(-25deg);
 }
 
 .usagi .mouth.lower {
-    border: 8px solid #512300;
-    background-color: #f5b4c0;
-    width: 26px;
-    height: 26px;
-    position: absolute;
-    top: 32px;
-    left: 50%;
-    margin-left: -13px;
-    border-top: none;
-    border-radius: 0 0 50% 50%;
+  border: .8rem solid #512300;
+  background-color: #f5b4c0;
+  width: 2.6rem;
+  height: 2.6rem;
+  position: absolute;
+  top: 3.2rem;
+  left: 50%;
+  margin-left: -1.3rem;
+  border-top: none;
+  border-radius: 0 0 50% 50%;
 }
 
 /*
@@ -190,22 +190,22 @@ const style =
 
 .usagi .flush::before,
 .usagi .flush::after {
-    content: '';
-    background-color: #f3a1ae;
-    width: 53px;
-    height: 37px;
-    border-radius: 50%;
-    position: absolute;
-    top: 44px;
-    left: 50%;
+  content: '';
+  background-color: #f3a1ae;
+  width: 5.3rem;
+  height: 3.7rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 4.4rem;
+  left: 50%;
 }
 
 .usagi .flush::before {
-    margin-left: -98px;
+  margin-left: -9.8rem;
 }
 
 .usagi .flush::after {
-    margin-left: 45px;
+  margin-left: 4.5rem;
 }
 
 /*
@@ -213,26 +213,26 @@ const style =
 */
 
 .piske-container {
-    width: 182px;
-    height: 190px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: 40px;
-    overflow:hidden;
+  width: 18.2rem;
+  height: 19rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: 4rem;
+  overflow:hidden;
 }
 
 .piske {
-    border: 6px solid #3f180d;
-    background-color: #fff;
-    width: 182px;
-    height: 170px;
-    position: absolute;
-    left: 0;
-    bottom: -66px;
-    border-bottom: none;
-    border-radius: 50% 50% 0 0;
-    transition: transform 0.5s;
+  border: .6rem solid #3f180d;
+  background-color: #fff;
+  width: 18.2rem;
+  height: 17rem;
+  position: absolute;
+  left: 0;
+  bottom: -6.6rem;
+  border-bottom: none;
+  border-radius: 50% 50% 0 0;
+  transition: transform 0.5s;
 }
 
 /*
@@ -241,22 +241,22 @@ const style =
 
 .piske .eye::before,
 .piske .eye::after {
-    content: '';
-    background-color: #3f180d;
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    position: absolute;
-    top: 45px;
-    left: 50%;
+  content: '';
+  background-color: #3f180d;
+  border-radius: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+  position: absolute;
+  top: 4.5rem;
+  left: 50%;
 }
 
 .piske .eye::before {
-    margin-left: -32px;
+  margin-left: -3.2rem;
 }
 
 .piske .eye::after {
-    margin-left: 20px;
+  margin-left: 2rem;
 }
 
 /*
@@ -265,27 +265,27 @@ const style =
 
 .piske .mouth::before,
 .piske .mouth::after {
-    content: '';
-    border: 6px solid #3f180d;
-    background-color: #fdd924;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+  content: '';
+  border: .6rem solid #3f180d;
+  background-color: #fdd924;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .piske .mouth::before {
-    width: 30px;
-    height: 23px;
-    border-radius: 30px;
-    top: 35px;
+  width: 3rem;
+  height: 2.3rem;
+  border-radius: 3rem;
+  top: 3.5rem;
 }
 
 .piske .mouth::after {
-    width: 26px;
-    height: 26px;
-    border-radius: 30px;
-    position: absolute;
-    top: 54px;
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 3rem;
+  position: absolute;
+  top: 5.4rem;
 }
 
 /*
@@ -294,22 +294,22 @@ const style =
 
 .piske .flush::before,
 .piske .flush::after {
-    content: '';
-    background-color: #f3a1ae;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    position: absolute;
-    top: 55px;
-    left: 50%;
+  content: '';
+  background-color: #f3a1ae;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 5.5rem;
+  left: 50%;
 }
 
 .piske .flush::before {
-    margin-left: -64px;
+  margin-left: -6.4rem;
 }
 
 .piske .flush::after {
-    margin-left: 39px;
+  margin-left: 3.9rem;
 }
 
 /*
@@ -317,19 +317,16 @@ const style =
 */
 
 .usagi-container:hover>.usagi {
-    transform: translateY(25%);
-    transition: transform 0.5s;
+  transform: translateY(25%);
+  transition: transform 0.5s;
 }
 
 .piske-container:hover>.piske {
-    transform: translateY(24%);
-    transition: transform 0.5s;
+  transform: translateY(24%);
+  transition: transform 0.5s;
 }
 
 /*
-** 最后我们让手机上也能容纳下他俩的大头
-** 这一步在大屏设备上看没有变化哦
-**
 ** 这样我们就画完啦，不知道你喜欢吗
 ** 我们下次再见啦，拜拜~
 */`
